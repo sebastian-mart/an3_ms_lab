@@ -119,6 +119,16 @@ int main()
         cout<<";qma"<<qma<<";";
         cout<<";TSma:"<<TSma;
 
+        // double sumRO = 0, roZero = 0;
+        // double ro = (double) lambda / ((double) (miu + miu + miu) / 3);
+        // double roStea = (double) ro / S;
+        // for(i = 1; i <= S-1; i++)
+        // sumRO +=(double) pow(ro, i) / factorial(i);
+        // sumRO += (double) ((double) pow(ro, S) / factorial(S)) * S / (S - ro);
+        // roZero = pow(1+sumRO, -1);
+        // double qma = roZero * pow(S, S) / (double) factorial(S) * pow(roStea, S+1) / (double) pow(1 - roStea, 2);
+        // cout<<"qma: "<< qma<<"\n";
+
         if(lambda==29)
             break;
         
